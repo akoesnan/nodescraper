@@ -177,11 +177,11 @@ var parseFees = function ($, product) {
     productFeesMapping['Tipe Asuransi'] = 'insuranceType';
     productFeesMapping['Biaya penarikan'] = 'withdrawalFee';
     productFeesMapping['Biaya Cancel'] = 'cancelationFee';
-    productFeesMapping['Biaya Tahunan'] = 'minIncome';
+    productFeesMapping['Biaya Tahunan'] = 'annualFee';
     productFeesMapping['Biaya tahunan untuk kartu tambahan'] = 'additionalCardAnnualFee';
     productFeesMapping['Denda keterlambatan pembayaran'] = 'lateFee';
     productFeesMapping['Biaya admin untuk keterlambatan'] = 'lateFeeAdmin';
-    productFeesMapping['Minimal pembayaran setiap bulan'] = 'minMontlyPayment';
+    productFeesMapping['Minimal pembayaran setiap bulan'] = 'minMonthlyPayment';
 
 
     product.fees = {};
